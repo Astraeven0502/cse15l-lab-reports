@@ -1,2 +1,2 @@
 test
-![Image]cat-portrait.jpg
+![Image](cat-portrait.jpg)
