@@ -47,16 +47,16 @@ The working directory is /home. The `ls` command is to list all the files and fo
 ---
 ![Image](7.cat(NoArgument).png)
 
-The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, there is no argument are given so the terminal does not know what contects should print. There is no error message but the terminal seems crash, the next line does not have "[user@sahara ~]$" prefix.
+The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, there is no argument are given so the terminal does not know what contents should print. There is no error message but the terminal seems crash because the next line does not have "[user@sahara ~]$" prefix.
 
 **`cat` with A Path To a Directory**
 ---
 ![Image](8.cat(PathDirectory).png)
 
-The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, the argument I have here is "lecture1" which is the relative path and equal to the directory "/home/lecture1". However, the cat does not accept directory path, it only takes the file argument so here the terminal print out an error message with "Is a directory".
+The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, the argument I have here is "lecture1" which is the relative path and equal to the directory "/home/lecture1". However, the cat does not accept directory path, it only takes the file argument so here the terminal print out an error message indicate that lecture1 "Is a directory".
 
 **`cat` with A Path To a File**
 ---
 ![Image](9.cat(PathFile).png)
 
-The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, the argument I have here is "lecture1/Hello.java" which is the relative path and equal to the directory "/home/lecture1/Hello.java". It is a file which is the correct format so the terminal prints out the contents inside the "Hello.java" file. There is no error message since it successfully execute the command `cat` and print out the correct content inside "Hello.java".
+The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, the argument I have here is "lecture1/Hello.java" which is the relative path and equal to the directory "/home/lecture1/Hello.java". It is a file which is in the correct format so the terminal prints out the contents inside the "Hello.java" file. There is no error message since it successfully execute the command `cat` and print out the correct content inside "Hello.java".
