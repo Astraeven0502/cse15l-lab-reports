@@ -15,3 +15,39 @@
 ---
 ![Image](3.cd(PathFile).png)
 > The working directory is /home. Like I mentioned above, the cd command change the working directory to the given path, the given argument is "lecture1/Hello.java" which means go the "home/lecture1/Hello.java" directory, and "Hello.java" is a file not a directory. Because of that, we are getting a error says "Not a directory".
+
+
+## 2. For `ls` command
+
+**`ls` with No arguments**
+---
+![Image](4.ls(NoArgument).png)
+> ls
+
+**`ls` with A Path To a Directory**
+---
+![Image](5.ls(PathDirectory).png)
+> lss
+
+**`cd` with A Path To a File**
+---
+![Image](6.ls(PathFile).png)
+> lsss
+
+
+## 3. For `cat` command
+
+**`cat` with No arguments**
+---
+![Image](7.cat(NoArgument).png)
+> cat
+
+**`cd` with A Path To a Directory**
+---
+![Image](8.cat(PathDirectory).png)
+> catt
+
+**`cd` with A Path To a File**
+---
+![Image](9.cat(PathFile).png)
+> cattt
