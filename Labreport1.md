@@ -47,7 +47,7 @@ The working directory is /home. The `ls` command is to list all the files and fo
 ---
 ![Image](7.cat(NoArgument).png)
 
-The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, there is no argument are given so the terminal does not know what contents should print, but if I type "apple" after running `cat` with no argument the terminal also print another "apple", same as I type "test" after that. There is no error message but the terminal seems crash because the next line does not have "[user@sahara ~]$" prefix, and I have to press crtl+c to get out this situation, otherwise the terminal will keep print the same thing I typed.
+The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, there is no argument are given so the terminal does not know what contents should print, but if I type "apple" after running `cat` with no argument the terminal also print another "apple", same as I type "test" after that. There is no error message but the terminal seems crash but not actually crash because the next line does not have "[user@sahara ~]$" prefix and I can still type anything and get the output, I have to press crtl+c to get out this situation, otherwise the terminal will keep print the same thing I typed.
 
 **`cat` with A Path To a Directory**
 ---
