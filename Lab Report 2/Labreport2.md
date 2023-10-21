@@ -4,9 +4,9 @@
 
 
 ## 2. Using `/add-message?s=Hello`
-![Image]((1)Using'Hello'.png)
+![Image](1Using'Hello'.png)
 
 
 ## 3. Using `/add-message?s=How are you`
-![Image]((2)Using'How_are_you'.png)
+![Image](2Using'How_are_you'.png)
 
