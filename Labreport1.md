@@ -38,7 +38,7 @@ The working directory is /home. The `ls` command is to list all the files and fo
 ---
 ![Image](6.ls(PathFile).png)
 
-The working directory is /home. The `ls` command is to list all the files and folders the given path, the argument I have here is "lecture1/Hello.java" which is a file so it print out the directory of that file. And there is no error output because the argument is succesfully taken and execute with correct output by `ls` command.
+The working directory is /home. The `ls` command is to list all the files and folders the given path, the argument I have here is "lecture1/Hello.java" and "lecture1/messages/en-us.txt" which they all indicate a file so it print out the directory of that file, so it change based on the filepathed that is specified. And there is no error output because the argument is succesfully taken and execute with correct output by `ls` command.
 
 
 ## 3. For `cat` command
@@ -47,7 +47,7 @@ The working directory is /home. The `ls` command is to list all the files and fo
 ---
 ![Image](7.cat(NoArgument).png)
 
-The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, there is no argument are given so the terminal does not know what contents should print. There is no error message but the terminal seems crash because the next line does not have "[user@sahara ~]$" prefix.
+The working directory is /home. The `cat` command is used to print the contents of one or more files given by paths, there is no argument are given so the terminal does not know what contents should print, but if I type "apple" after running `cat` with no argument the terminal also print another "apple", same as I type "test" after that. There is no error message but the terminal seems crash because the next line does not have "[user@sahara ~]$" prefix, and I have to press crtl+c to get out this situation, otherwise the terminal will keep print the same thing I typed.
 
 **`cat` with A Path To a Directory**
 ---
