@@ -38,7 +38,7 @@ The working directory is /home. The `ls` command is to list all the files and fo
 ---
 ![Image](6.ls(PathFile).png)
 
-The working directory is /home. The `ls` command is to list all the files and folders the given path, the argument I have here is "lecture1/Hello.java" and "lecture1/messages/en-us.txt" which they all indicate a file so it print out the directory of that file, so it change based on the filepathed that is specified. And there is no error output because the argument is succesfully taken and execute with correct output by `ls` command.
+The working directory is /home. The `ls` command is to list all the files and folders the given path, the argument I have here is "lecture1/Hello.java" and "lecture1/messages/en-us.txt" which they all indicate a file so it print out the directory of that file, it change based on the filepathed that is specified. And there is no error output because the argument is succesfully taken and execute with correct output by `ls` command.
 
 
 ## 3. For `cat` command
