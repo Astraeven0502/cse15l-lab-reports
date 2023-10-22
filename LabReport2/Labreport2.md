@@ -9,7 +9,7 @@
 
 ![Image](1Using'Hello'.png)
 
-I have called `getPath()`, `equals()`, `getQuery()` and `split()`. 
+I called `getPath()`, `equals()`, `contains(String)`, `getQuery()` and `split(String)`. I use `getPath().contains("/add-message")` to see if the path contain "/add-message". Next I use `getQuery().split("=")` to split the query(everthing after `?`) into a string array that has two elements. The index 0 is the string before `=`, the index 1 is the string after `=`. So in this specific request `/add-message?s=Hello`, `parameter[0]` would be `s` and `parameter[1]` would be `Hello`. Integer variable `num` is to keep track the amount of the total string list. And after this specific request `/add-message?s=Hello`, num will plus one and the string `Hello` will be added into the string list since the `parameter[0]`(in here, the string after `?` and before `=`) is `s`.
 
 ** 3. Using `/add-message?s=How are you`
 
