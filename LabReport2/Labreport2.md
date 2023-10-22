@@ -19,15 +19,15 @@ I called `getPath()`, `equals()`, `contains(String)`, `getQuery()` and `split(St
 
 
 ## Part 2
-**1. The path to the private key for your SSH key for logging into ieng6**
+** 1. The path to the private key for your SSH key for logging into ieng6**
 ---
 ![Image](3PrivateKey.png)
 
-**2. The path to the public key for your SSH key for logging into ieng6**
+** 2. The path to the public key for your SSH key for logging into ieng6**
 ---
 ![Image](4PublicKey.png)
 
-**3. Log into ieng6 without being asked for a password.**
+** 3. Log into ieng6 without being asked for a password.**
 
 ![Image](5LoginWithoutPassword.png)
 
