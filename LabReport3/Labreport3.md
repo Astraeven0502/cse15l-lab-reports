@@ -117,6 +117,7 @@ Output:
 ./911report
 ```
 
+The command is to search for the exact path for files and directories.
 Found from: https://www.redhat.com/sysadmin/linux-find-command
 
 **-iname**
@@ -158,6 +159,7 @@ Output:
 ./biomed
 ```
 
+The command is to search for the exact path for files and directories(do not have to match capitalized characters).
 Found from: https://www.redhat.com/sysadmin/linux-find-command
 
 **-size**
@@ -200,19 +202,36 @@ Output:
 ./911report/preface.txt
 ```
 
+Find files and directories based on size(`+` sign means find the files or directories that are larger than the argument that provided after, `-` sign maens smaller).
 Found from: https://tecadmin.net/linux-find-command-with-examples/
 
-**-type d**
+**-type**
 ---
 **On Files**
 
 Command:
 ```
-find ./911report/chapter-1.txt -type d
+find ./911report -type f
 ```
 Output:
 ```
-/* Print nothing */
+./911report/chapter-1.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+./911report/chapter-12.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-2.txt
+./911report/chapter-3.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-8.txt
+./911report/chapter-9.txt
+./911report/preface.txt
 ```
 
 **On Directories**
@@ -236,4 +255,5 @@ Output:
 ./plos
 ```
 
+Find the path for directorys(-type d) or files(-type f).
 Found from: https://www.tecmint.com/35-practical-examples-of-linux-find-command/
