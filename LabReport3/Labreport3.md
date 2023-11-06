@@ -103,16 +103,137 @@ find -name preface.txt
 ```
 Output:
 ```
-./technical/911report/preface.txt
+./911report/preface.txt
 ```
 
 **On Directories**
 
 Command: 
 ```
-find 911report
+find -name 911report
 ```
 Output: 
 ```
-./technical/911report
+./911report
 ```
+
+Found from: https://www.redhat.com/sysadmin/linux-find-command
+
+**-iname**
+---
+**On Files**
+
+Command: 
+```
+find -iname "chapter*.txt"
+```
+Output: 
+```
+./911report/chapter-1.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+./911report/chapter-12.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-2.txt
+./911report/chapter-3.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-8.txt
+./911report/chapter-9.txt
+```
+
+**On Directories**
+
+Command: 
+```
+find -iname "bio*"
+```
+Output: 
+```
+./biomed
+```
+
+Found from: https://www.redhat.com/sysadmin/linux-find-command
+
+**-size**
+---
+**On Files**
+Command: 
+```
+find ./plos/pmed.0020191.txt -size 1k
+```
+Output: 
+```
+./plos/pmed.0020191.txt
+```
+
+**On Directories**
+
+Command: 
+```
+find ./911report -size +1k
+```
+Output: 
+```
+./911report
+./911report/chapter-1.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+./911report/chapter-12.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-2.txt
+./911report/chapter-3.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-8.txt
+./911report/chapter-9.txt
+./911report/preface.txt
+```
+
+Found from: https://tecadmin.net/linux-find-command-with-examples/
+
+**-type d**
+---
+**On Files**
+
+Command:
+```
+find ./911report/chapter-1.txt -type d
+```
+Output:
+```
+/* Print nothing */
+```
+
+**On Directories**
+
+Command: 
+```
+find ./ -type d
+```
+Output: 
+```
+./
+./911report
+./biomed
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+./plos
+```
+
+Found from: https://www.tecmint.com/35-practical-examples-of-linux-find-command/
