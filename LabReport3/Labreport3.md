@@ -1,5 +1,5 @@
 # Lab Report 3 - Bugs and Commands (Week 5)
-## Part 1 
+## Part 1 - Bugg for `testReverseInPlace`
 
 **A Failure-Inducing Input**
 ---
@@ -89,3 +89,28 @@ static void reverseInPlace(int[] arr) {
 ```
 
 I create another array that store the value then assign the reversed value back. Because before the fix, the same array are being use to store elements, the first element lost when the first `FOR` loop is excuted.
+
+
+## Part 2 - `find` Command
+
+**-name**
+---
+**On Files**
+Command:
+```
+find -name preface.txt
+```
+Output:
+```
+./technical/911report/preface.txt
+```
+
+**On Directories**
+Command: 
+```
+find 911report
+```
+Output: 
+```
+./technical/911report
+```
