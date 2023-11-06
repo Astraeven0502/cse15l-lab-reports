@@ -96,6 +96,7 @@ I create another array that store the value then assign the reversed value back.
 **-name**
 ---
 **On Files**
+
 Command:
 ```
 find -name preface.txt
@@ -106,6 +107,7 @@ Output:
 ```
 
 **On Directories**
+
 Command: 
 ```
 find 911report
