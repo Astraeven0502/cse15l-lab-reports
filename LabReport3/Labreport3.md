@@ -204,7 +204,7 @@ Output:
 ./911report/preface.txt
 ```
 
-Find files and directories based on size(`+` sign means find the files or directories that are larger than the argument that provided after, `-` sign maens smaller).
+Find files and directories based on size(`+` sign indicate to find the files or directories that are larger than the argument that provided after, `-` sign indicate smaller).
 
 Found from: https://tecadmin.net/linux-find-command-with-examples/
 
