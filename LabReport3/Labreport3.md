@@ -118,6 +118,7 @@ Output:
 ```
 
 The command is to search for the exact path for files and directories.
+
 Found from: https://www.redhat.com/sysadmin/linux-find-command
 
 **-iname**
@@ -160,6 +161,7 @@ Output:
 ```
 
 The command is to search for the exact path for files and directories(do not have to match capitalized characters).
+
 Found from: https://www.redhat.com/sysadmin/linux-find-command
 
 **-size**
@@ -203,6 +205,7 @@ Output:
 ```
 
 Find files and directories based on size(`+` sign means find the files or directories that are larger than the argument that provided after, `-` sign maens smaller).
+
 Found from: https://tecadmin.net/linux-find-command-with-examples/
 
 **-type**
@@ -256,4 +259,5 @@ Output:
 ```
 
 Find the path for directorys(-type d) or files(-type f).
+
 Found from: https://www.tecmint.com/35-practical-examples-of-linux-find-command/
