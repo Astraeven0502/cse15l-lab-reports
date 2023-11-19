@@ -289,6 +289,7 @@ Found from: <https://www.tecmint.com/35-practical-examples-of-linux-find-command
 ---
 
 **Source**
+
 <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
 
 <https://tecadmin.net/linux-find-command-with-examples/>
