@@ -94,6 +94,9 @@ I create another array that store the value then assign the reversed value back.
 ## Part 2 - `find` Command
 
 **-name**
+
+The command is to search for the exact path for files and directories.
+
 ---
 **On Files**
 
@@ -106,6 +109,8 @@ Output:
 ./911report/preface.txt
 ```
 
+This command are able to find the file if I don't know where I saved it. So it is useful for finding a specific file without knowing the exact path.
+
 **On Directories**
 
 Command: 
@@ -117,11 +122,14 @@ Output:
 ./911report
 ```
 
-The command is to search for the exact path for files and directories.
+This command are able to find the directory if I don't know where I saved it. It's useful when I am finding the directory but can't remember where it is.
 
 Found from: <https://www.redhat.com/sysadmin/linux-find-command>
 
 **-iname**
+
+The command is to search for the exact path for files and directories(do not have to match capitalized characters).
+
 ---
 **On Files**
 
@@ -149,6 +157,8 @@ Output:
 ./911report/chapter-9.txt
 ```
 
+This command are able to find the file if I don't know where I saved it. Additionally, it don't have to match capitalized characters. So it is useful for finding a specific file without knowing the exact path and whether I capitalized the characters.
+
 **On Directories**
 
 Command: 
@@ -160,11 +170,14 @@ Output:
 ./biomed
 ```
 
-The command is to search for the exact path for files and directories(do not have to match capitalized characters).
+This command are able to find the directory if I don't know where I saved it. Additionally, it don't have to match capitalized characters. It's useful when I am finding the directory but can't remember where it is.
 
 Found from: <https://www.redhat.com/sysadmin/linux-find-command>
 
 **-size**
+
+Find files and directories based on size(`+` sign indicate to find the files or directories that are larger than the argument that provided after, `-` sign indicate smaller).
+
 ---
 **On Files**
 Command: 
@@ -175,6 +188,8 @@ Output:
 ```
 ./plos/pmed.0020191.txt
 ```
+
+This command are able to find the file based on their size. This is useful because I can test the file is larger, for example, 1Mb, or smaller.
 
 **On Directories**
 
@@ -204,12 +219,15 @@ Output:
 ./911report/preface.txt
 ```
 
-Find files and directories based on size(`+` sign indicate to find the files or directories that are larger than the argument that provided after, `-` sign indicate smaller).
+This command are able to find the file in that directory based on their size. This is useful because I can test every file is larger, for example, 1Mb, or smaller. Let's say if we want to find a file that take extreme big storage then we can use this command to do that.
 
 Found from: <https://tecadmin.net/linux-find-command-with-examples/>
 
 **-type**
 ---
+
+Find the path for directorys(-type d) or files(-type f).
+
 **On Files**
 
 Command:
@@ -237,6 +255,8 @@ Output:
 ./911report/preface.txt
 ```
 
+This command can find every thing that are files in that directory(including it's sub-directory). It is useful if we only want know the file in that directory. 
+
 **On Directories**
 
 Command: 
@@ -258,6 +278,13 @@ Output:
 ./plos
 ```
 
-Find the path for directorys(-type d) or files(-type f).
+This command can find every thing that are directory in that directory(including it's sub-directory). It is useful if we only want know the directory in that directory.
 
 Found from: <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
+
+---
+
+**Source**
+<https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
+<https://tecadmin.net/linux-find-command-with-examples/>
+<https://www.redhat.com/sysadmin/linux-find-command>
