@@ -126,6 +126,7 @@ This command are able to find the directory if I don't know where I saved it. It
 
 Found from: <https://www.redhat.com/sysadmin/linux-find-command>
 
+
 **-iname**
 
 The command is to search for the exact path for files and directories(do not have to match capitalized characters).
@@ -173,6 +174,7 @@ Output:
 This command are able to find the directory if I don't know where I saved it. Additionally, it don't have to match capitalized characters. It's useful when I am finding the directory but can't remember where it is.
 
 Found from: <https://www.redhat.com/sysadmin/linux-find-command>
+
 
 **-size**
 
@@ -222,6 +224,7 @@ Output:
 This command are able to find the file in that directory based on their size. This is useful because I can test every file is larger, for example, 1Mb, or smaller. Let's say if we want to find a file that take extreme big storage then we can use this command to do that.
 
 Found from: <https://tecadmin.net/linux-find-command-with-examples/>
+
 
 **-type**
 ---
@@ -282,9 +285,13 @@ This command can find every thing that are directory in that directory(including
 
 Found from: <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
 
+
 ---
 
 **Source**
 <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
+
 <https://tecadmin.net/linux-find-command-with-examples/>
+
 <https://www.redhat.com/sysadmin/linux-find-command>
+
