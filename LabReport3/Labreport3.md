@@ -93,11 +93,11 @@ I create another array that store the value then assign the reversed value back.
 
 ## Part 2 - `find` Command
 
-<font size = 3>**-name**
+**-name**
+---
 
 The command is to search for the exact path for files and directories.
 
----
 **On Files**
 
 Command:
@@ -127,11 +127,11 @@ This command are able to find the directory if I don't know where I saved it. It
 Found from: <https://www.redhat.com/sysadmin/linux-find-command>
 
 
-<font size = 3>**-iname**
+**-iname**
+---
 
 The command is to search for the exact path for files and directories(do not have to match capitalized characters).
 
----
 **On Files**
 
 Command: 
@@ -176,12 +176,13 @@ This command are able to find the directory if I don't know where I saved it. Ad
 Found from: <https://www.redhat.com/sysadmin/linux-find-command>
 
 
-<font size = 3>**-size**
+**-size**
+---
 
 Find files and directories based on size(`+` sign indicate to find the files or directories that are larger than the argument that provided after, `-` sign indicate smaller).
 
----
 **On Files**
+
 Command: 
 ```
 find ./plos/pmed.0020191.txt -size 1k
@@ -226,7 +227,7 @@ This command are able to find the file in that directory based on their size. Th
 Found from: <https://tecadmin.net/linux-find-command-with-examples/>
 
 
-<font size = 3>**-type**
+**-type**
 ---
 
 Find the path for directorys(-type d) or files(-type f).
