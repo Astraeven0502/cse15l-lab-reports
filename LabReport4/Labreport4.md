@@ -47,7 +47,7 @@ Press `r` then press `2` to replace that character to 2.
 
 ![Image](step7-3.png)
 
-Press `:wq` to write(save) and quit the vim editer.
+Press `<shift> + ;` to type `:` then type `wq` to write(save) and quit the vim editer.
 
 **Step 8**
 ---
