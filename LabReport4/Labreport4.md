@@ -61,8 +61,8 @@ Run the bash by typing `bash test.sh` then press `<enter>`.
 
 ![Image](step9-1.png)
 
-Type `git commit ListExamples.java -m "fixed"` to commit ListExample.java to git. The `-m` and the following quote `"fixed"` is to create a commit message(here the message would be `"fixed"`)
+Type `git commit ListExamples.java -m "fixed"` then press `<enter>` to commit ListExample.java to git. The `-m` and the following quote `"fixed"` is to create a commit message(here the message would be `"fixed"`)
 
 ![Image](step9-2.png)
 
-Type `git push` to push the change to github.
+Type `git push` then press `<enter>` to push the change to github.
