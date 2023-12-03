@@ -23,7 +23,7 @@ The index for the string starts from 0. Also, if your for loop always ignores th
 The bug is in the for loop condition, it always starts for index 1 which is wrong because it skip the first index which is index 0.
 
 
-**All information**
+**All the information**
 ---
 
 The file & directory structure
