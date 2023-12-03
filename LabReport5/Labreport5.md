@@ -32,9 +32,15 @@ The file & directory structure
 
 Before fixing the bug
 ---
+ListExamples.java: 
+
 ![Image](ListExamplesjava.png)
 
+ListExamplesTest.java: 
+
 ![Image](ListExamplesTestjava.png)
+
+test.sh: 
 
 ![Image](testsh.png)
 
