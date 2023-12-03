@@ -4,7 +4,7 @@
 
 **A post from a student**
 ---
-Everytime I run the testfilter1 it always give me wrong output but my testfilter2 is passed. It seem always ignore the first element. 
+Every time I run testfilter1 it always gives me the wrong output but my testfilter2 is passed. It seems always ignore the first element. 
 ![Image](StudentQuestion1.png)
 
 ![Image](StudentQuestion2.png)
@@ -13,13 +13,15 @@ Everytime I run the testfilter1 it always give me wrong output but my testfilter
 **A response from a TA**
 ---
 
-The index for the string start from 0. Also, if your for loop always ingore the first element, you might want to check your for loop condition
+The index for the string starts from 0. Also, if your for loop always ignores the first element, you might want to check your for loop condition
 
 **Fixed the bug**
 ---
 
 ![Image](StudentQuestion3.png)
-The bug is in the for loop condition, it always start for index 1 which is wrong becuase it skip the first index which is index 0.
+
+The bug is in the for loop condition, it always starts for index 1 which is wrong because it skip the first index which is index 0.
+
 
 **All information**
 ---
@@ -41,7 +43,8 @@ The full command line to trigger the bug
 ---
 The command `bash test.sh` trigger the bug
 
-Inside test.sh:
+The content inside test.sh:
+
 `
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
@@ -49,7 +52,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 what to edit to fix the bug
 ---
-Edit line 14 to initialize `i` from 1 to 0. Since the index start from 0 not 1, we have to set the start condition to 0. If that is i start at 1 that would mean start from the second element not the first element.
+Edit line 14 to initialize `i` from 1 to 0. Since the index starts from 0 not 1, we have to set the start condition to 0. If i start at 1 that would mean starting from the second element instead of the first element that we want.
 
 ## Part 2 – Reflection
 
