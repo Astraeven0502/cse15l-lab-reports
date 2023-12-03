@@ -20,7 +20,7 @@ The index for the string starts from 0. Also, if your for loop always ignores th
 
 ![Image](StudentQuestion3.png)
 
-The bug is in the for loop condition, it always starts for index 1 which is wrong because it skip the first index which is index 0.
+The bug is in the for loop condition, it always starts for index 1 which is wrong because it skip the first element which is index 0.
 
 
 **All the information**
